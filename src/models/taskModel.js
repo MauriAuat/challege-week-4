@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const taskSchema= new mongoose.Schema({
     title: {
         type: String,
-        required:[true, "A tour must have a name"],
-        unique:true
+        required:[true, "A tour must have a name"]
     },
     
     description: {
